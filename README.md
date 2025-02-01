@@ -22,11 +22,11 @@ To set up this project locally, follow the steps below:
 
 1. Clone this repository via Git:
    ```bash
-   git clone https://github.com/airtribe-projects/news-aggregator-api-Shashirokz.git
+   git clone https://github.com/Shashirokz/Virtual-Event-Management.git
    ```
 2. Navigate into the project directory:
    ```bash
-   cd news-aggregator-api-Shashirokz
+   cd virtual-event-management
    ```
 3. Install dependencies:
    ```bash
@@ -92,37 +92,6 @@ To set up this project locally, follow the steps below:
    "password": "U2hhc2hp"
 }
 ```
-#### Response:
-```json
-JSON response with authentication token
-```
----
-### **3. Get News Articles**
-**Endpoint**: `GET /news`
-
----
-### **4. Get favorites news articles**
-**Endpoint**: `GET /news/favorites`
----
-### **5. Get read news articles**
-**Endpoint**: `GET /news/read`
----
-### **6. Get news articles by search keyword**
-**Endpoint**: `GET /news/search/{keyword}`
----
-### **7. set favorites news articles**
-**Endpoint**: `POST /news/{newsId}/favorite`
----
-### **8. set read news articles**
-**Endpoint**: `POST /news/{newsId}/read`
----
-### **9. get users news articles preference**
-**Endpoint**: `GET /users/preference`
----
-### **10. set users news articles preference**
-*Endpoint*: `PUT /users/preference`
----
-
 ### **Error Handling**
 All API requests will return appropriate HTTP status codes based on the result:
 ```json
